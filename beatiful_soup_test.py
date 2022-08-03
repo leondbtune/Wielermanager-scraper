@@ -9,3 +9,4 @@ name = soup.find_all('title', limit=1)
 for name in name:
     print(name.text)
 
+
