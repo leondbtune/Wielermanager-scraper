@@ -19,3 +19,8 @@ class Rider:
     def add_sprint_points(self, points):
         self.sprint_points += points
         
+    def add_team(self, team):
+        self.team = team
+
+    def add_value(self, value):
+        self.value = value
